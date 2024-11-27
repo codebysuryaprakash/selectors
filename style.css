@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+}
+
+/*type selector*/
+section{
+    background-color: rgb(202, 202, 202);
+   
+    margin-bottom: 10px;
+    border: solid 2px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*class selectors*/
+.company-wrapper{
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.793);
+    padding: 10px;
+    
+
+}
+
+/*descent selector*/
+.company-wrapper h1{
+    color: red;
+    font-family: "Dancing Script", cursive;
+}
+
+/*id selctor*/
+#imp-company{
+   color: green;   
+}
+/* child selector*/
+.skilllist >li{
+    list-style-type: none;
+}
+
+/*attribute-html class oru attibute*/
+a[target="_blank"]{
+    color: blue;
+    font-weight: bold;
+}
+
+/* pseudo class*/
+#skill-title:hover{
+    color: red;
+}
+
+#company-name, #company-exp, #company-des {
+    color: green;
+}
+
+#company-des{
+    font-size: 10px;
+}
